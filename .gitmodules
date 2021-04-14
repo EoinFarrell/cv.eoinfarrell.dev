@@ -1,0 +1,9 @@
+[submodule "themes/almeida-cv"]
+	path = themes/almeida-cv
+	url = git@github.com:ineesalmeida/almeida-cv.git
+[submodule "themes/themes/hugo-orbit-theme"]
+	path = themes/themes/hugo-orbit-theme
+	url = git@github.com:aerohub/hugo-orbit-theme.git
+[submodule "themes/hugo-orbit-theme"]
+	path = themes/hugo-orbit-theme
+	url = git@github.com:aerohub/hugo-orbit-theme.git

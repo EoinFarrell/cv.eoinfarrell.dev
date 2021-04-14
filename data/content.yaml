@@ -1,0 +1,110 @@
+BasicInfo:
+  FirstName: Eoin
+  LastName: Farrell
+  Photo: img/avatar.jpg
+  Contacts:
+    # - Icon: fas fa-phone
+    #   Info: +44 123 456 789
+    - Icon: fas fa-envelope
+      Info: me@eoinfarrell.dev
+    - Icon: fas fa-globe
+      Info: eoinfarrell.dev
+    - Icon: fas fa-map-marker-alt
+      Info: Dublin, Ireland
+    - Icon: fab fa-linkedin
+      Info: linkedin.com/in/eoinfarrell
+    - Icon: fab fa-github
+      Info: github.com/eoinFarrell
+
+Profile: "An experienced software developer who has worked with a small but fast-growing company since completing a BSc in Computer Science. This has allowed Eoin to use many different tools and technologies while gaining insight into all aspects of the business and project lifecycles.
+With a strong foundation in full stack development, Eoin has branched out to focus on the introduction of DevOps tools and methodologies within his role, bringing greater confidence in software and database deployments in both on-premises and cloud hosted environments.
+With a passion for the computers, he is continuously trying to improve his knowledge through active learning and enjoys keeping up with the latest news and trends in the tech industry."
+
+Experience:
+  - Employer: Zendesk
+    Place: Dublin, Ireland
+    Positions:
+      - Title: Senior Software Engineer
+        Date: July 2019 - Present
+      - Title: Software Engineer
+        Date: July 2019 - Jan 2021
+        Details:
+          - 
+        Badges: ['Scala', 'AWS','Kubernetes', 'Bash', 'Go', 'Terraform', 'SQL/ActiveRecord']
+  - Employer: DOCOsoft
+    Place: Dublin, Ireland
+    Positions:
+      - Title: Software Engineer
+        Date: June 2014 - May 2019
+        Details:
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['C#', 'SQL/Sql Server', 'CSS', 'C#/Unity']
+  - Employer: Institute of Neural Engineering
+    Place: Graz, AT
+    Positions:
+      - Title: Master's Thesis Research Intern
+        Date: Oct 2016 - Jun 2017
+        Details:
+          - Arcu vitae elementum curabitur vitae nunc sed velit
+          - Viverra aliquet eget sit amet tellus cras adipiscing
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+
+Education:
+  - Course: BSc in Computer Science
+    Place: Dublin Institute of Technology
+    Date: Sep 2010 - May 2014
+    Details: First Class Honors
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - HTML (including Jinja)
+      - Javascript
+      - CSS
+      - SASS
+      - SQL
+      - C#
+      - Bash
+      - MATLAB
+  - Family: Frameworks
+    Items:
+      - Django
+      - Flask
+      - Hugo
+      - React
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Jenkins
+      - AWS
+  - Family: Misc
+    Items:
+      - Adobe Tools
+      - LaTeX
+
+# Languages:
+#   - Name: Portuguese
+#     Level: Native
+#   - Name: English
+#     Level: C2
+#   - Name: Spanish
+#     Level: B1
+#   - Name: German
+#     Level: B1
+
+# Diplomas:
+#   - ISTQB Tester Certification (2019)
+#   - English Cambridge CAE (2009)
+
+Interests:
+  - Cycling
+  - Running
+  - Bossa
+  - Design
