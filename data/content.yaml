@@ -17,16 +17,16 @@ BasicInfo:
 Profile: 
   - "
   Experienced software developer with a strong foundation in full stack development 
-  with experience on a wide range of tools & technolgoies.
+  with experience in a wide range of tools & technologies.
   "
   - "
   Through working with both small & large companies, 
-  Eoin has a great understanding of the importance of focusing on the customer 
+  I have gained a great understanding of the importance of focusing on the customer 
   & operational requirements of software development 
   while still aiming to deliver well designed & scalable solutions.
   "
   - "
-  Eoin is focused on improving his engineering knowledge 
+  I continuously focused on improving his engineering knowledge 
   and exposure to new technologies through online courses, personal projects and meetup events.
   "
 
@@ -85,36 +85,28 @@ Education:
   - Course: BSc in Computer Science
     Place: Dublin Institute of Technology
     Date: Sep 2010 - May 2014
-    Details: First Class Honors
+    Details: First Class Honours
 
 Skills:
   - Family: Programming
     Items:
-      - Python
-      - HTML (including Jinja)
-      - Javascript
-      - CSS
-      - SASS
-      - SQL
+      - Scala
       - C#
+      - SQL
+      - Javascript
+      - Golang
       - Bash
-      - MATLAB
-  - Family: Frameworks
-    Items:
-      - Django
-      - Flask
-      - Hugo
-      - React
   - Family: Developer Tools
     Items:
       - Git
       - Docker
-      - Jenkins
       - AWS
-  - Family: Misc
-    Items:
-      - Adobe Tools
-      - LaTeX
+      - Kubernetes
+      - Jenkins
+      - Github Actions
+      - Cloudflare
+      - Datadog
+
 
 # Languages:
 #   - Name: English
@@ -127,5 +119,3 @@ Skills:
 Interests:
   - Cycling
   - Running
-  - Bossa
-  - Design
