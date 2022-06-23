@@ -1,0 +1,131 @@
+BasicInfo:
+  FirstName: Eoin
+  LastName: Farrell
+  # Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: <a href="mailto:me@eoinfarrell.dev">me@eoinfarrell.dev</a>
+    - Icon: fas fa-globe
+      Info: <a href="https://eoinfarrell.dev">eoinfarrell.dev</a>
+    - Icon: fas fa-map-marker-alt
+      Info: Dublin, Ireland
+    - Icon: fab fa-linkedin
+      Info: <a href="https://linkedin.com/in/eoinfarrell">linkedin.com/in/eoinfarrell</a>
+    - Icon: fab fa-github
+      Info: <a href="https://github.com/eoinfarrell">github.com/eoinfarrell</a>
+
+Profile: 
+  - "
+  Experienced software developer with a strong foundation in full stack development 
+  with experience on a wide range of tools & technolgoies.
+  "
+  - "
+  Through working with both small & large companies, 
+  Eoin has a great understanding of the importance of focusing on the customer 
+  & operational requirements of software development 
+  while still aiming to deliver well designed & scalable solutions.
+  "
+  - "
+  Eoin is focused on improving his engineering knowledge 
+  and exposure to new technologies through online courses, personal projects and meetup events.
+  "
+
+Experience:
+  - Employer: Zendesk
+    Place: Dublin, Ireland
+    Positions:
+      - Title: Senior Software Engineer Technical Lead
+        Date: May 2021 - Present
+      - Title: Senior Software Engineer
+        Date: Jan 2021 - Mays 2021
+      - Title: Software Engineer
+        Date: July 2019 - Jan 2021
+        Description: Part of the Foundation – Edge team,
+          which has responsibility for the Edge networking infrastructure which handles all inbound traffic. 
+          Focus on developing API & Kafka driven pipelines to safely deliver dynamic configuration to reverse proxies & DNS systems.
+        Details:
+          - Heading: Technical Lead for the team which included
+            Bullet:
+              - Designing technical requirements & system architecture changes for projects
+              - Engineer point of contact for any new & existing products our team managed
+              - Collaborated with engineers from other teams on proof of concepts & org level projects
+              - Worked with management to plan upcoming quarters & projects
+          - Heading: Focus on operational reliability by designing SLI & SLO metrics backed by dashboards, alerts, detailed documentation & runbooks
+          - Heading: Mentored junior developers by pairing with them on tasks and educating them on our stack
+          - Heading: Part of Engineering Onboarding team, running sessions for all new engineers in the company
+        Badges: ['Scala', 'AWS', 'Kubernetes', 'S3', 'SQS', 'Nginx', 'Go', 'Terraform', 'Aurora DB', 'Consul K/V', 'Datadog']
+  - Employer: DOCOsoft
+    Place: Dublin, Ireland
+    Positions:
+      - Title: Software Engineer
+        Date: June 2014 - May 2019
+        Description: Part of the development team that design, built & delivered the Company's CMS Product.
+        Details:
+          - Heading: Lead Developer on multiple projects #which included 
+            # Bullet:
+            #   - Designed technical requirements & system architecture changes
+            #   - Developed features with testing suite while supporting developers
+            #   - Participated in project meetings & training sessions with stakeholders
+            #   - Post go-live user support and incident investigation
+          - Heading: Introduced CICD pipeline to move company away from manual tasks
+            Bullet:
+            - Included automating both code & database building, testing, packing & deployments
+          - Heading: Initiated migration of the product to the Cloud with a focus on security & user auth
+          - Heading: Purchasing, installation and management of internal server hardware running ESXi
+          - Heading: Member of internal best practices group to improve project workflow in the company
+        Badges: ['C#', 'Sql Server', 'JavaScript', 'Azure', 'TeamCity', 'OctopusDeploy', 'CSS']
+  - Employer: Bank of Ireland, Retail Credit Division
+    Place: Dublin, Ireland
+    Positions:
+      - Title: Risk Analyst
+        Date: Feb 2013 – Sep 2013
+        Badges: ['SAS Enterprise Miner', 'Excel', 'Visual Basic', 'MS Access DB']
+
+Education:
+  - Course: BSc in Computer Science
+    Place: Dublin Institute of Technology
+    Date: Sep 2010 - May 2014
+    Details: First Class Honors
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - HTML (including Jinja)
+      - Javascript
+      - CSS
+      - SASS
+      - SQL
+      - C#
+      - Bash
+      - MATLAB
+  - Family: Frameworks
+    Items:
+      - Django
+      - Flask
+      - Hugo
+      - React
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Jenkins
+      - AWS
+  - Family: Misc
+    Items:
+      - Adobe Tools
+      - LaTeX
+
+# Languages:
+#   - Name: English
+#     Level: Native
+
+# Diplomas:
+#   - ISTQB Tester Certification (2019)
+#   - English Cambridge CAE (2009)
+
+Interests:
+  - Cycling
+  - Running
+  - Bossa
+  - Design
