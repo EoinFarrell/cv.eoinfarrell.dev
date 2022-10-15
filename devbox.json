@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "hugo"
+  ],
+  "shell": {
+    "init_hook": null
+  }
+}
