@@ -13,15 +13,12 @@ BasicInfo:
       Info: <a href="https://linkedin.com/in/eoinfarrell">linkedin.com/in/eoinfarrell</a>
     - Icon: fab fa-github
       Info: <a href="https://github.com/eoinfarrell">github.com/eoinfarrell</a>
-    - Icon: fab fa-code
+    - Icon: fas fa-code
       Info: <a href="https://github.com/EoinFarrell/cv.eoinfarrell.dev">Source Code</a>
 
 Profile: 
   - "
-  I am a software engineer with years of experience leading the design and delivery of software development projects with a focus on creating scalable and reliable solutions for high traffic services while fostering a team environment that focuses on support and collaboration between members.
-  "
-  - "
-  Through working with both small & large companies, I have gained a great understanding of the importance of focusing on the end user while still aiming to deliver well designed and scalable solutions with continued focus on operational monitoring post deployment, across a wide range of technology stacks.
+  Software engineer experienced in leading the design, delivery and operational monitoring of software development projects, with a focus on creating scalable and reliable solutions for high traffic services across a range of technology stacks while fostering a team environment that focuses on support and collaboration between members.
   "
   - "
   As a technical lead I am well accustomed to collaborating with management and engineering peers on cross organisational projects and resulting sprint & quarterly planning. As a lead I also believe one of the core focuses should be on developing and supporting team members as a well run and confident team is the key to delivering successful and innovative projects.
@@ -36,21 +33,8 @@ Experience:
     Positions:
       - Title: Senior Member of Technical Staff - Tech Lead
         Date: Oct 2022 - Present
-        Description: 
-        Details:
-        Badges: []
-  - Employer: Zendesk
-    Place: Dublin, Ireland
-    Positions:
-      - Title: Senior Software Engineer Technical Lead
-        Date: May 2021 - Sept 2022
-      - Title: Senior Software Engineer
-        Date: Jan 2021 - May 2021
-      - Title: Software Engineer
-        Date: July 2019 - Jan 2021
-        Description: Part of the Foundation – Edge team,
-          which has responsibility for the Edge networking infrastructure which handles all inbound traffic. 
-          Focus on developing API & Kafka driven pipelines to safely deliver dynamic configuration to reverse proxies & DNS systems.
+        Description: Part of the Commerce team, 
+           developing a pipeline to collect, aggregate and present cost & usage metrics from across VMWare services to give customers and the business better insight.
         Details:
           - Heading: Technical Lead for the team which included
             Bullet:
@@ -58,6 +42,21 @@ Experience:
               - Engineer point of contact for any new & existing products our team managed
               - Collaborated with engineers from other teams on proof of concepts & org level projects
               - Worked with management to plan upcoming quarters & projects
+          - Heading: Project/feature development and debugging production issues  
+          - Heading: Hosted regular calls to up-skill team on software development and monitoring best practices 
+          - Heading: Led sprint planning for team and supprted team members with tickets whenever needed
+        Badges: ['Java', 'AWS', 'Kubernetes', 'Spring Boot', 'Apache Ignite', 'Athena']
+  - Employer: Zendesk
+    Place: Dublin, Ireland
+    Positions:
+      - Title: Senior Software Engineer Technical Lead
+        Date: July 2019 - Sept 2022
+        Description: Part of the Foundation - Edge team,
+          developing API & Kafka driven pipelines with custom Terraform providers to safely deliver dynamic configuration to reverse proxies & DNS systems.
+          # with responsibility for the Edge networking infrastructure, handling all inbound traffic. 
+        Details:
+          - Heading: Technical Lead for the team (similar responsibilities to VMWare above)
+          - Heading: Project/feature development and debugging production issues
           - Heading: Focus on operational reliability by designing SLI & SLO metrics backed by dashboards, alerts, detailed documentation & runbooks
           - Heading: Mentored junior developers by pairing with them on tasks and educating them on our stack
           - Heading: Part of Engineering Onboarding team, running sessions for all new engineers in the company
@@ -67,9 +66,9 @@ Experience:
     Positions:
       - Title: Software Engineer
         Date: June 2014 - May 2019
-        Description: Part of the development team that design, built & delivered the Company's CMS Product.
+        Description: Part of the team that design, built & delivered DOCOsoft Claims Management System.
         Details:
-          - Heading: Lead Developer on multiple projects #which included 
+          - Heading: Lead Developer on multiple product projects primarily using c#, sql and js #which included 
             # Bullet:
             #   - Designed technical requirements & system architecture changes
             #   - Developed features with testing suite while supporting developers
@@ -82,12 +81,12 @@ Experience:
           - Heading: Purchasing, installation and management of internal server hardware running ESXi
           - Heading: Member of internal best practices group to improve project workflow in the company
         Badges: ['C#', 'Sql Server', 'JavaScript', 'Azure', 'TeamCity', 'OctopusDeploy', 'CSS']
-  - Employer: Bank of Ireland, Retail Credit Division
-    Place: Dublin, Ireland
-    Positions:
-      - Title: Risk Analyst
-        Date: Feb 2013 – Sep 2013
-        Badges: ['SAS Enterprise Miner', 'Excel', 'Visual Basic', 'MS Access DB']
+  # - Employer: Bank of Ireland, Retail Credit Division
+  #   Place: Dublin, Ireland
+  #   Positions:
+  #     - Title: Risk Analyst
+  #       Date: Feb 2013 – Sep 2013
+  #       Badges: ['SAS Enterprise Miner', 'Excel', 'Visual Basic', 'MS Access DB']
 
 Education:
   - Course: BSc in Computer Science
@@ -107,10 +106,11 @@ Skills:
       - Bash
   - Family: Developer Tools
     Items:
-      - Git
-      - Docker
       - AWS
       - Kubernetes
+      - Git
+      - Docker
+      - Terraform
       - Jenkins
       - Github Actions
       - Cloudflare
@@ -128,3 +128,4 @@ Skills:
 Interests:
   - Cycling
   - Running
+  - Self Hosting/Home Lab
