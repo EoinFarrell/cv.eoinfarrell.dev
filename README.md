@@ -1,5 +1,7 @@
 # cv.eoinfarrell.dev
 
+Live Site: [https://cv.eoinfarrell.dev](https://cv.eoinfarrell.dev)
+
 ## Run locally
 
 1. Install hugo
