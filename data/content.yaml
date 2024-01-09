@@ -13,6 +13,8 @@ BasicInfo:
       Info: <a href="https://linkedin.com/in/eoinfarrell">linkedin.com/in/eoinfarrell</a>
     - Icon: fab fa-github
       Info: <a href="https://github.com/eoinfarrell">github.com/eoinfarrell</a>
+    - Icon: fas fa-globe
+      Info: <a href="https://cv.eoinfarrell.dev">Online Version</a>
     - Icon: fas fa-code
       Info: <a href="https://github.com/EoinFarrell/cv.eoinfarrell.dev">Source Code</a>
 
