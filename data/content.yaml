@@ -46,8 +46,8 @@ Experience:
               - Worked with management to plan upcoming quarters & projects
           - Heading: Project/feature development and debugging production issues  
           - Heading: Hosted regular calls to up-skill team on software development and monitoring best practices 
-          - Heading: Led sprint planning for team and supprted team members with tickets whenever needed
-        Badges: ['Java', 'AWS', 'Kubernetes', 'Spring Boot', 'Apache Ignite', 'Athena']
+          - Heading: Led sprint planning for team and supported team members with tickets whenever needed
+        Badges: ['Java', 'AWS (Glue/Athena/S3)', 'Kubernetes', 'Spring Boot', 'Apache Ignite']
   - Employer: Zendesk
     Place: Dublin, Ireland
     Positions:
@@ -62,7 +62,7 @@ Experience:
           - Heading: Focus on operational reliability by designing SLI & SLO metrics backed by dashboards, alerts, detailed documentation & runbooks
           - Heading: Mentored junior developers by pairing with them on tasks and educating them on our stack
           - Heading: Part of Engineering Onboarding team, running sessions for all new engineers in the company
-        Badges: ['Scala', 'AWS', 'Kubernetes', 'S3', 'SQS', 'Nginx', 'Go', 'Terraform', 'Aurora DB', 'Consul K/V', 'Datadog']
+        Badges: ['Scala', 'AWS (SQS/S3/Aurora DB)', 'Kubernetes', 'Nginx', 'Go', 'Terraform', 'Consul K/V', 'Datadog']
   - Employer: DOCOsoft
     Place: Dublin, Ireland
     Positions:
