@@ -19,32 +19,54 @@ BasicInfo:
       Info: <a href="https://github.com/EoinFarrell/cv.eoinfarrell.dev">Source Code</a>
 
 Profile: 
-  - "
-  Software engineer experienced in leading the design, delivery and operational monitoring of software development projects, with a focus on creating scalable and reliable solutions for high traffic services across a range of technology stacks while fostering a team environment that focuses on support and collaboration between members.
-  "
-  - "
-  As a technical lead I am well accustomed to collaborating with management and engineering peers on cross organisational projects and resulting sprint & quarterly planning. As a lead I also believe one of the core focuses should be on developing and supporting team members as a well run and confident team is the key to delivering successful and innovative projects.
-  "
-  - "
-  I continuously focus on trying to improve my engineering knowledge and exposure to new technologies through home labs, rss feeds, online courses, personal projects and meetup events.
-  "
+  - Software engineer specializing in distributed systems, platform engineering, and operational reliability. Proven track record designing and delivering
+    scalable architectures for high-traffic services across multiple technology stacks, with expertise in observability platforms, microservices, and cloud
+    infrastructure. Led end-to-end technical initiatives spanning security compliance, platform migrations, and architectural upgrades that deliver both
+    performance improvements and cost optimization.
+  - Collaborative technical leader who partners with engineering management, product teams, and cross-functional stakeholders to align on strategy and
+    execution. Passionate about building strong engineering teams through mentorship, knowledge sharing, and establishing technical standards that enable
+    sustainable delivery of high-quality, reliable software.
 
 Experience:
+  - Employer: Workday
+    Place: Dublin, Ireland
+    Positions:
+      - Title: Senior Software Engineer #(Distributed Systems)
+        Date: Apr 2024 - Present
+        Description: Part of the Data Platform & Observability team,
+          operating and evolving the Pharos Metrics Platform (Grafana Mimir, Loki, Grafana Enterprise) serving observability needs across Workday.
+        Details:
+          - Heading: Led 12-month end-to-end Graviton migration of entire metrics platform stack
+            Bullet:
+              - Migrated Mimir components, Memcached, Grafana Enterprise, and supporting services across all environments
+              - Delivered annual cost savings of $1.5m and performance improvements through ARM architecture adoption and m8g node upgrade
+          - Heading: Owned security & compliance initiatives across multiple critical programmes
+            Bullet:
+              - FIPS-140-3 compliance & IL4 enablement - rebuilt 20+ container images, some from source, STIG hardening and produced audit evidence documentation for IL4 programme
+              - RBVM R1 & R2 - owned bi-annual OS vulnerability remediation process end-to-end, built tooling and educated team
+          - Heading: Delivered major platform upgrades and operational improvements
+            Bullet:
+              - Initiated and completed Mimir V3 upgrade across production environments
+              - Enhanced CI/CD pipeline adding multi-arch build support and Renovate Bot implementation in Jenkins
+              - Improved alert tuning, resource optimization, and SLO configuration across the platform
+              - Produced runbooks and documentation on new processes and presented knowledge share sessions for the team 
+          - Heading: Maintained operational excellence through customer support rotation and on-call responsibilities
+        Badges: ['Grafana Mimir', 'Go', 'Prometheus', 'AWS', 'Kubernetes', 'FIPS', 'Graviton', 'ArgoCD', 'Jenkins']
   - Employer: VMWare
     Place: Dublin, Ireland
     Positions:
       - Title: Senior Member of Technical Staff - Tech Lead
-        Date: Oct 2022 - Present
+        Date: Oct 2022 - Feb 2024
         Description: Part of the Commerce team, 
-           developing a pipeline to collect, aggregate and present cost & usage metrics from across VMWare services to give customers and the business better insight.
+           developing a pipeline to collect and aggregate cost & usage metrics from VMware hybrid cloud products, providing insights to customers.
         Details:
-          - Heading: Technical Lead for the team which included
+          - Heading: Technical Lead for team which included
             Bullet:
-              - Designing technical requirements & system architecture changes for projects
-              - Engineer point of contact for any new & existing products our team managed
-              - Collaborated with engineers from other teams on proof of concepts & org level projects
+              - Project requirement gathering & system architecture design
+              - Engineer point of contact for new & existing products managed by the team
+              - Collaborate with other teams on proof of concepts & org level projects
               - Worked with management to plan upcoming quarters & projects
-          - Heading: Project/feature development and debugging production issues  
+          - Heading: Focused on improving pipeline performance (early filtering/aggregation and smart caching strategies) 
           - Heading: Hosted regular calls to up-skill team on software development and monitoring best practices 
           - Heading: Led sprint planning for team and supported team members with tickets whenever needed
         Badges: ['Java', 'AWS (Glue/Athena/S3)', 'Kubernetes', 'Spring Boot', 'Apache Ignite']
@@ -54,15 +76,13 @@ Experience:
       - Title: Senior Software Engineer Technical Lead
         Date: July 2019 - Sept 2022
         Description: Part of the Foundation - Edge team,
-          developing API & Kafka driven pipelines with custom Terraform providers to safely deliver dynamic configuration to reverse proxies & DNS systems.
-          # with responsibility for the Edge networking infrastructure, handling all inbound traffic. 
+          developing API & Kafka driven pipelines to safely deploy dynamic configuration to reverse proxies, handling all Zendesk inbound traffic   
         Details:
-          - Heading: Technical Lead for the team (similar responsibilities to VMWare above)
-          - Heading: Project/feature development and debugging production issues
-          - Heading: Focus on operational reliability by designing SLI & SLO metrics backed by dashboards, alerts, detailed documentation & runbooks
-          - Heading: Mentored junior developers by pairing with them on tasks and educating them on our stack
-          - Heading: Part of Engineering Onboarding team, running sessions for all new engineers in the company
-        Badges: ['Scala', 'AWS (SQS/S3/Aurora DB)', 'Kubernetes', 'Nginx', 'Go', 'Terraform', 'Consul K/V', 'Datadog']
+          - Heading: Designed Edge Networking as a Platform service, allowing Zendesk engineers to easily manage their network routes using custom Terraform providers & config as code
+          - Heading: Focus on operational reliability, designing SLI & SLO metrics backed by dashboards, alerts, detailed documentation & runbooks
+          - Heading: Part of Engineering Onboarding team, presenting group sessions on Zendesk Stack for all new engineers in the company
+          - Heading: Mentored junior developers, pairing with them on tasks and educating them on our stack
+        Badges: ['Scala', 'AWS (SQS/S3/Aurora DB)', 'Kubernetes', 'Nginx', 'Go', 'Terraform', 'Kafka', 'Datadog']
   - Employer: DOCOsoft
     Place: Dublin, Ireland
     Positions:
@@ -70,25 +90,11 @@ Experience:
         Date: June 2014 - May 2019
         Description: Part of the team that design, built & delivered DOCOsoft Claims Management System.
         Details:
-          - Heading: Lead Developer on multiple product projects primarily using c#, sql and js #which included 
-            # Bullet:
-            #   - Designed technical requirements & system architecture changes
-            #   - Developed features with testing suite while supporting developers
-            #   - Participated in project meetings & training sessions with stakeholders
-            #   - Post go-live user support and incident investigation
-          - Heading: Introduced CICD pipeline to move company away from manual tasks
-            Bullet:
-            - Included automating both code & database building, testing, packing & deployments
-          - Heading: Initiated migration of the product to the Cloud with a focus on security & user auth
-          - Heading: Purchasing, installation and management of internal server hardware running ESXi
+          - Heading: Lead Developer on multiple product projects
+          - Heading: Introduced CICD pipeline, migrating away from manual tasks
+          - Heading: Initiated Cloud migration with a focus on security & user auth
           - Heading: Member of internal best practices group to improve project workflow in the company
         Badges: ['C#', 'Sql Server', 'JavaScript', 'Azure', 'TeamCity', 'OctopusDeploy', 'CSS']
-  # - Employer: Bank of Ireland, Retail Credit Division
-  #   Place: Dublin, Ireland
-  #   Positions:
-  #     - Title: Risk Analyst
-  #       Date: Feb 2013 – Sep 2013
-  #       Badges: ['SAS Enterprise Miner', 'Excel', 'Visual Basic', 'MS Access DB']
 
 EducationSideBar:
   - Course: BSc in Computer Science
@@ -97,26 +103,36 @@ EducationSideBar:
     Details: First Class Honours
 
 Skills:
-  - Family: Programming
+  - Family: Platform & Infrastructure
+    Items: 
+      - AWS
+      - Kubernetes
+      - Terraform
+  - Family: CI/CD
     Items:
+      - ArgoCD
+      - Jenkins
+      - GH Actions
+      - Docker 
+  - Family: Observability & Reliability
+    Items: 
+      - Prometheus & Mimir
+      - Grafana
+      - Datadog
+      - SLI/SLO design
+  - Family: Languages
+    Items: 
+      - Go
       - Java
       - Scala
       - C#
       - SQL
-      - Javascript
-      - Golang
-      - Bash
-  - Family: Developer Tools
-    Items:
-      - AWS
-      - Kubernetes
-      - Git
-      - Docker
-      - Terraform
-      - Jenkins
-      - Github Actions
-      - Cloudflare
-      - Datadog
+  - Family: Security & Compliance
+    Items: 
+      - FIPS-140-3
+      - STIG hardening
+      - DoD IL4
+      - Vulnerability remediation
 
 
 # Languages:
